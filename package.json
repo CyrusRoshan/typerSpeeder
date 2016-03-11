@@ -1,0 +1,30 @@
+{
+  "name": "typerSpeeder",
+  "version": "0.0.1",
+  "description": "speed through typerRacer on cruise control",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyrusRoshan/typerSpeeder.git"
+  },
+  "keywords": [
+    "typerSpeeder",
+    "typerFaker",
+    "typing",
+    "race"
+  ],
+  "author": "Cyrus Roshan <hello@cyrusroshan.com> (http://github.com/cyrusroshan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CyrusRoshan/typerSpeeder/issues"
+  },
+  "bin": {
+    "typerSpeeder": "typerSpeeder.js"
+  },
+  "homepage": "https://github.com/CyrusRoshan/typerSpeeder/",
+  "devDependencies": {},
+  "dependencies": {
+    "co": "^4.6.0",
+    "nightmare": "^2.2.0"
+  }
+}
