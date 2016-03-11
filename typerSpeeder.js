@@ -32,7 +32,8 @@ function speedRace(wpm, url, username, password) {
 
     console.log('Waiting for page to finish loading...');
 
-    yield nightmare.goto(url);
+    nightmare.goto(url);
+    yield nightmare.wait('.room-title');
 
     console.log('Attempting to sign in...');
 
@@ -82,9 +83,13 @@ function speedRace(wpm, url, username, password) {
         yield delay(delayTime);
       }
     }
+
+    console.log();
     console.log('Finished racing...');
 
     nightmare.end();
+
+    process.exit();
   });
 }
 
